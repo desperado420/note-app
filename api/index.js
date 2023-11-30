@@ -16,7 +16,7 @@ const __dirname = path.resolve()
 
 const app = express()
 
-app.listen(4000, ()=>{
+app.listen(process.env.PORT, ()=>{
     console.log("Server is running on port 4000")
 })
 
